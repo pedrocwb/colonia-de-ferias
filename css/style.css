@@ -73,9 +73,14 @@ nav.navbar.navbar-expand-lg {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 20px;
+  font-family: 'Indie Flower', cursive;
+  
+  font-size: 25px;
+  line-height: 30px;
+  padding: 5px 5px;
   color: #f7f6f7;
   text-align: center;
+  
 }
 
 
@@ -187,7 +192,7 @@ a:focus {
 }
 
 .hero_detail-box {
-  width: 40%;
+  width: 50%;
 }
 
 .hero_img-container {
@@ -205,10 +210,15 @@ a:focus {
 }
 
 .hero_detail-box h1 {
+  font-family: 'Indie Flower';
   font-size: 50px;
-  color: #fefeff;
-  font-weight: 600;
-  width: 70%;
+  color: #516caf;
+  font-weight: bold;
+  width: 90%;
+  text-decoration: bol;
+}
+.hero_detail-box h1 img {
+  margin: 5%;
 }
 
 
