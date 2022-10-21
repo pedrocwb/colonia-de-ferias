@@ -259,7 +259,8 @@ a:focus {
 
 /* about section */
 .about_section {
-  text-align: right;
+  text-align: left;
+  font-size: large;
 }
 
 .about_section a {
@@ -271,7 +272,9 @@ a:focus {
 
 /* admission section */
 
-
+.admission_section {
+  font-size: larger;
+}
 .admission_section a {
   background-color: #fdd31d;
   color: #fefeff;
@@ -304,19 +307,20 @@ a:focus {
 /* end determine section */
 
 /* client section */
-.client_section h2,
-.client_section h5,
+.client_section h1,
+.client_section h3,
 .client_section p {
   font-weight: 600;
+  font-size: larger;
 }
 
-.client_section h2 {
+.client_section h1 {
   text-align: center;
 }
 
 
-.client_section h5 {
-  font-size: 24px;
+.client_section h3 {
+  font-size: 35px;
   color: #fdd31d;
 }
 
