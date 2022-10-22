@@ -1,6 +1,19 @@
+@font-face {
+  font-family: Adigiana Extreme;
+  src: url("../fonts/Adigiana\ Extreme.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #fefeff;
+}
+
+h1 {
+  color: #3960b0;
 }
 
 .layout_padding {
@@ -73,12 +86,12 @@ nav.navbar.navbar-expand-lg {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Adigiana Extreme';
   
-  font-size: 25px;
+  font-size: 40px;
   line-height: 30px;
-  padding: 5px 5px;
-  color: #f7f6f7;
+  padding: 5px 15px;
+  color: #3960b0;
   text-align: center;
   
 }
@@ -187,22 +200,24 @@ a:focus {
 /* hero section */
 .hero-container {
   display: flex;
-  padding-top: 90px;
-  padding-bottom: 325px;
+  padding-top: 10px;
+  padding-bottom: 150px;
 }
 
 .hero_detail-box {
-  width: 50%;
+  width: 30%;
 }
 
 .hero_img-container {
-  width: 78%;
-  margin-right: -8%;
-  margin-top: -5%;
+  width: 100%;
 }
 
 .hero_img-container img {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
 }
 
 .hero_detail-box {
@@ -210,7 +225,7 @@ a:focus {
 }
 
 .hero_detail-box h1 {
-  font-family: 'Indie Flower';
+  font-family: 'Adigiana Extreme';
   font-size: 50px;
   color: #516caf;
   font-weight: bold;
@@ -307,7 +322,8 @@ a:focus {
 /* end determine section */
 
 /* client section */
-.client_section h1,
+
+
 .client_section h3,
 .client_section p {
   font-weight: 600;
@@ -572,3 +588,42 @@ a:focus {
 
 
 /* end footer section*/
+
+
+.card {
+  
+  border:none;
+  padding: 10px 50px;
+}
+
+.card::after {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+
+
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  backface-visibility: hidden; 
+  will-change: transform;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.card:hover .btn-outline-primary{
+  color:white;
+  /* background:#007bff; */
+}
+
+.card-text {
+  text-align: center !important;
+}
+
