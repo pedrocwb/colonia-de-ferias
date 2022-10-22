@@ -312,7 +312,9 @@ a:focus {
 
 /* determine section */
 
-
+.determine_section {
+  font-size: larger;
+}
 .determine_section a {
   background-color: #fdd31d;
   color: #fefeff;
