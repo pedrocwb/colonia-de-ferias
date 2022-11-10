@@ -291,7 +291,6 @@ a:focus {
   font-size: larger;
 }
 .admission_section a {
-  background-color: #fdd31d;
   color: #fefeff;
 }
 
@@ -648,7 +647,9 @@ a:focus {
   .text-center .turno{
     font-size: 25px !important;
   }
-
+  .card {
+    padding: 0px 15px;
+  }
 
 }
 
