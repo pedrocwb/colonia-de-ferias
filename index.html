@@ -18,8 +18,6 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- progress barstle -->
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
 
@@ -29,17 +27,22 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="css/gallery.css" />
   <!-- font wesome stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
 
 
 
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+
+
 
 
 </head>
@@ -201,9 +204,6 @@
 
             </p>
 
-   
-
-
           </div>
         </div>
         <div class="col-sm">
@@ -211,12 +211,38 @@
       </div>
   </section>
   <section>
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
 
-    </div>
+    <div class="container gallery-container">
+
+     
+      <div class="tz-gallery">
+  
+          <div class="row">
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/fotos/1.jpeg">
+                      <img src="images/fotos/1.jpeg" alt="Park" width="300px" height="300px">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/fotos/2.jpeg">
+                      <img src="images/fotos/2.jpeg" alt="Bridge" width="300px" height="300px">
+                  </a>
+              </div>
+            <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/fotos/3.jpeg">
+                      <img src="images/fotos/3.jpeg" alt="Tunnel" width="300px" height="300px">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/fotos/4.jpeg">
+                      <img src="images/fotos/4.jpeg" alt="Coast" width="300px" height="300px">
+                  </a>
+              </div>
+          </div>
+  
+      </div>
+  
+  </div>
   </section>
 
 
@@ -413,7 +439,8 @@
               <div class="card-body">
                 <h2 class="card-title">Condições especiais para inscrições antecipadas. </h2>
                 <p class="card-text"> Desconto de 10% para irmãos</p>
-                <a href="https://wa.me/5541997648800?text=Ol%C3%A1%2C+gostaria+de+receber+mais+informa%C3%A7%C3%B5es+da+col%C3%B4nia+de+f%C3%A9rias." class="btn btn-success">
+                <a href="https://wa.me/5541997648800?text=Ol%C3%A1%2C+gostaria+de+receber+mais+informa%C3%A7%C3%B5es+da+col%C3%B4nia+de+f%C3%A9rias."
+                  class="btn btn-success">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-whatsapp" viewBox="0 0 16 16">
                     <path
@@ -543,7 +570,10 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.tz-gallery');
+  </script>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
